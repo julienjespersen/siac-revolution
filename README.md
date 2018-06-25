@@ -135,17 +135,17 @@ Remarque:
 	- toutes les prestations au top d'une architecture sont taguées "cycle", par exemple, les cycles CCU, les cycles de conférences, les cycles cinéma (Histoire et cité, ...), les festivals (Commedia, FUIT);
 
 ## 6. CCU
-		- les prestations cycle sont taguées s:cycle, m:cinéclub, m:cinéma
-		- les séances CCU sont taguées: s:événement, m:cinéclub, m:cinéma
-		- la page CCU est créée en dur, le sommaire des cycles actuels est cependant généré: s:cycle, m:cinéclub, m:cinéma, date:actuel, tri:chronologique
-		- la page du cycle est générée, le sommaire des séances est généré, la prochaine séance est générée, les ressources informationnelles (image) et documentaires (revue, trailer, cahier des fiches filmiques), les crédits (personnes associées à la prestation en tant que groupe de travail) sont générés à la volée
+* les prestations cycle sont taguées s:cycle, m:cinéclub, m:cinéma
+* les séances CCU sont taguées: s:événement, m:cinéclub, m:cinéma
+* la page CCU est créée en dur, le sommaire des cycles actuels est cependant généré: s:cycle, m:cinéclub, m:cinéma, date:actuel, tri:chronologique
+* la page du cycle est générée, le sommaire des séances est généré, la prochaine séance est générée, les ressources informationnelles (image) et documentaires (revue, trailer, cahier des fiches filmiques), les crédits (personnes associées à la prestation en tant que groupe de travail) sont générés à la volée
 
 ## 7. Archivage
-		- portfolio: l'historique des personnes doit permettre d'exprimer toutes les relations entre une personne et les Activités culturelles, soit i) à travers une inscription (cours, billets offerts), soit ii) à travers une relation qualifiée ("jeu" pour un événement, "groupe de travail" pour le ciné-club, etc., selon le point 10 ci-dessous)
-		- permettre l'archivage des productions (événements) à travers le moteur de recherche
-		- permettre l'archivage des ressources associées aux prestations en distinguant a) les ressources internes au CMS et b) les ressources documentaires externes au CMS (accessibles et récupérables en tout temps):
-			a) les ressources informationnelles - quel que soit leur support (images, pdf, trailers, etc) - qui servent à la promotion de la prestation à travers, probablement, l'ID de la prestation;
-			b) les ressources documentaires - quels que soient leur support et leur nature (images des spectacles, enregistrements audiovisuels, revues du CCU, fiches filmiques, critiques, revues de presse, etc) - qui servent à la documentation de la prestation, intégrées dans le système "développé" en parallèle à travers l'ID de la prestation
+* portfolio: l'historique des personnes doit permettre d'exprimer toutes les relations entre une personne et les Activités culturelles, soit i) à travers une inscription (cours, billets offerts), soit ii) à travers une relation qualifiée ("jeu" pour un événement, "groupe de travail" pour le ciné-club, etc., selon le point 10 ci-dessous)
+* permettre l'archivage des productions (événements) à travers le moteur de recherche
+* permettre l'archivage des ressources associées aux prestations en distinguant a) les ressources internes au CMS et b) les ressources documentaires externes au CMS (accessibles et récupérables en tout temps):
+	* les ressources informationnelles - quel que soit leur support (images, pdf, trailers, etc) - qui servent à la promotion de la prestation à travers, probablement, l'ID de la prestation;
+	* les ressources documentaires - quels que soient leur support et leur nature (images des spectacles, enregistrements audiovisuels, revues du CCU, fiches filmiques, critiques, revues de presse, etc) - qui servent à la documentation de la prestation, intégrées dans le système "développé" en parallèle à travers l'ID de la prestation
 
 ## 8. Transactions financières
 * pas de crédits sur les comptes pour les remboursements et les paiements
@@ -166,16 +166,16 @@ Remarque:
 		* inclure la possibilité de gérer des paiements échelonnés à travers la vue "inscription" --> pour une inscription, validation partielle en précisant le montant, soit i) plusieurs lignes par date de paiement, soit ii) une case avec montant reçu et mise à jour manuelle --> c'est ce montant qui doit être calculé dans le montant des paiements reçus
 
 ## 9. Répertoire des oeuvres
-	- pour l'indexation des films, des oeuvres musicales, des pièces produits par les AC
-	- oeuvre: titre 1, titre 2, année de production, détails
-	- auteur: prénom, nom, date de naissance
-	- plusieurs auteurs pour une oeuvre, un auteur de plusieurs oeuvres
-	- les oeuvres sont à lier à une prestation dont elles constituent le programme (dont on renonce provisaoirement à ce qu'il soit exprimé automatiquement)
-	- doit servir à exprimer:
-		- le répertoire des oeuvres exécutées par le choeur ou l'orchestre
-		- le répertoire des films passés en séance de Cinéclub
-		- la filmographie CCU de tel réalisateur
-		- ...
+* pour l'indexation des films, des oeuvres musicales, des pièces produits par les AC
+* oeuvre: titre 1, titre 2, année de production, détails
+* auteur: prénom, nom, date de naissance
+* plusieurs auteurs pour une oeuvre, un auteur de plusieurs oeuvres
+* les oeuvres sont à lier à une prestation dont elles constituent le programme (dont on renonce provisaoirement à ce qu'il soit exprimé automatiquement)
+* doit servir à exprimer:
+	* le répertoire des oeuvres exécutées par le choeur ou l'orchestre
+	* le répertoire des films passés en séance de Cinéclub
+	* la filmographie CCU de tel réalisateur
+	* …
 	
 ## 10. Divers:
 - labeliser des unités de calendrier (ex: cours d'essai, nouvelle date, date modifiée, ...)
