@@ -38,7 +38,6 @@ Si-AC / Site AC: évolutions
 			- inscription: -
 			- calendrier: -
 			- tri: alphabétique du titre
-
 			- navigation au sein des prestations par filtre / facettes
 				- matière 1: danse, écriture, image, musique, nature, théâtre
 				- matière 2: déclinées selon matière 1
@@ -149,7 +148,6 @@ Remarque:
 			b) les ressources documentaires - quels que soient leur support et leur nature (images des spectacles, enregistrements audiovisuels, revues du CCU, fiches filmiques, critiques, revues de presse, etc) - qui servent à la documentation de la prestation, intégrées dans le système "développé" en parallèle à travers l'ID de la prestation
 
 8/ Transactions financières
-
 	- pas de crédits sur les comptes pour les remboursements et les paiements
 	- options ajoutées (partitions) considérées comme de nouvelles prestations associées (regroupement). Il n'y a par conséquent pas la possibilité d'enlever une option
 	- rabais concédés sur les inscriptions:
