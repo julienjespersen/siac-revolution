@@ -1,5 +1,6 @@
 # Si-AC / Site AC: évolutions
 
+
 ## 1/ possibilité de générer automatiquement des pages terminales
    possibilité d'associer des ressources informationnelles à des pages générées automatiquement
 
