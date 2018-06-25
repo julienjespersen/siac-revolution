@@ -148,22 +148,22 @@ Remarque:
 			b) les ressources documentaires - quels que soient leur support et leur nature (images des spectacles, enregistrements audiovisuels, revues du CCU, fiches filmiques, critiques, revues de presse, etc) - qui servent à la documentation de la prestation, intégrées dans le système "développé" en parallèle à travers l'ID de la prestation
 
 ## 8. Transactions financières
-	- pas de crédits sur les comptes pour les remboursements et les paiements
-	- options ajoutées (partitions) considérées comme de nouvelles prestations associées (regroupement). Il n'y a par conséquent pas la possibilité d'enlever une option
-	- rabais concédés sur les inscriptions:
-		a) pendant une certaine durée (de type: semaine promotionnelle) pour les paiements synchrones uniquement. Possibilité de développer les méthodes de paiement synchrones de type maestro pre-paid?
-		b) en fonction d'une condition (de type: participation déjà validée à un autre atelier regroupé)
-		c) en fonction d'une personne (de type: Anne Zanelli pour une prestation donnée)
-		d) en fonction du rapport à la prestation (de type: "Animateur", "Comité X", "Groupe de travail" --> implique de modifier les types de relations et de ne pas limiter l'inscription à ce type de relations (exception faite pour les animateurs)
-			règles: ° une relation à n'importe quelle prestation de type "Animateur" / un ensemble de prestations définies parmi les cours
-				° une relation de type "Comité" / une prestation et ses regroupements			
-	- pouvoir annoncer de manière automatique les rabais concédés pour a/b/d de manière i) non individuelle si la personne n'est pas connectée au moment de la navigation (de type: "les animateurs ont droit...") et ii) de manière individuelle si la personne se connecte (panier)
-	- obtenir une vue comptable sur les formations:
-		--> inclure le coût du cours dans la vue "prestation" (insertion manuelle à partir de la feuille excel de gouvernance des cours)
-		--> inclure le différentiel entre le coût du cours et les paiements reçus dans la vue "prestation"
-		--> inclure dans la vue particulière de chaque inscription le montant avant rabais et le montant après rabais (soit le montant payé)
-		--> détailler le calcul dans la vue "paiement" en fonction des prestations (exemple: "danse classique" = 72.-; "danse contemporaine" = 72.-)
-		--> inclure la possibilité de gérer des paiements échelonnés à travers la vue "inscription" --> pour une inscription, validation partielle en précisant le montant, soit i) plusieurs lignes par date de paiement, soit ii) une case avec montant reçu et mise à jour manuelle --> c'est ce montant qui doit être calculé dans le montant des paiements reçus
+* pas de crédits sur les comptes pour les remboursements et les paiements
+* options ajoutées (partitions) considérées comme de nouvelles prestations associées (regroupement). Il n'y a par conséquent pas la possibilité d'enlever une option
+* rabais concédés sur les inscriptions:
+	* pendant une certaine durée (de type: semaine promotionnelle) pour les paiements synchrones uniquement. Possibilité de développer les méthodes de paiement synchrones de type maestro pre-paid?
+	* en fonction d'une condition (de type: participation déjà validée à un autre atelier regroupé)
+	* en fonction d'une personne (de type: Anne Zanelli pour une prestation donnée)
+	* en fonction du rapport à la prestation (de type: "Animateur", "Comité X", "Groupe de travail" --> implique de modifier les types de relations et de ne pas limiter l'inscription à ce type de relations (exception faite pour les animateurs)
+	règles: ° une relation à n'importe quelle prestation de type "Animateur" / un ensemble de prestations définies parmi les cours
+		° une relation de type "Comité" / une prestation et ses regroupements			
+	* pouvoir annoncer de manière automatique les rabais concédés pour a/b/d de manière i) non individuelle si la personne n'est pas connectée au moment de la navigation (de type: "les animateurs ont droit...") et ii) de manière individuelle si la personne se connecte (panier)
+	* obtenir une vue comptable sur les formations:
+		* inclure le coût du cours dans la vue "prestation" (insertion manuelle à partir de la feuille excel de gouvernance des cours)
+		* inclure le différentiel entre le coût du cours et les paiements reçus dans la vue "prestation"
+		* inclure dans la vue particulière de chaque inscription le montant avant rabais et le montant après rabais (soit le montant payé)
+		* détailler le calcul dans la vue "paiement" en fonction des prestations (exemple: "danse classique" = 72.-; "danse contemporaine" = 72.-)
+		* inclure la possibilité de gérer des paiements échelonnés à travers la vue "inscription" --> pour une inscription, validation partielle en précisant le montant, soit i) plusieurs lignes par date de paiement, soit ii) une case avec montant reçu et mise à jour manuelle --> c'est ce montant qui doit être calculé dans le montant des paiements reçus
 
 ## 9. Répertoire des oeuvres
 	- pour l'indexation des films, des oeuvres musicales, des pièces produits par les AC
