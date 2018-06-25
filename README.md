@@ -11,11 +11,11 @@ Si-AC / Site AC: évolutions
 4/ nouvelle structure de site:
 	culture
 		catalogue
-			*cours
-			*cycles et colloques (tout ce qui est architecturé)
-			*événements
-			*billets offerts
-			*oeuvres au répertoire
+			-cours
+			-cycles et colloques (tout ce qui est architecturé)
+			-événements
+			-billets offerts
+			-oeuvres au répertoire
 		cinéclub
 		choeur
 		orchestre
