@@ -1,14 +1,14 @@
-Si-AC / Site AC: évolutions
+# Si-AC / Site AC: évolutions
 
-1/ possibilité de générer automatiquement des pages terminales
+## 1/ possibilité de générer automatiquement des pages terminales
    possibilité d'associer des ressources informationnelles à des pages générées automatiquement
 
-2/ possibilité de créer des liens, tuiles, ... sur des pages générées à la volée
+## 2/ possibilité de créer des liens, tuiles, ... sur des pages générées à la volée
    possibilité de créer des liens, tuiles, ... sur le moteur de recherche dûment paramétré (Ex.1: recherche de toutes les oeuvres musicales au répertoire: oEuvre: ∃ une oeuvre liée à une prestation taguée "événement" et "musique"; Ex.2: recherche de toutes les prestations actuelles sur le campus Valais, triées chronologiquement)
 
-3/ site web mixant des pages avec contenu en dur, avec contenu généré, et pages générées
+## 3/ site web mixant des pages avec contenu en dur, avec contenu généré, et pages générées
 
-4/ nouvelle structure de site:
+## 4/ nouvelle structure de site:
 	culture
 		catalogue
 			-cours
@@ -30,7 +30,7 @@ Si-AC / Site AC: évolutions
 			- galeries
 			- informations culturelles
 
-5/ catalogue des prestations: expressions paramétrées par défaut du moteur de recherche
+## 5/ catalogue des prestations: expressions paramétrées par défaut du moteur de recherche
 		catalogue des cours: expression d'un recherche sur le SIAC
 			- structure: cours
 			- matière: -
@@ -134,20 +134,20 @@ Remarque:
 	- nouveau tag structure: cycle (s:cycle); cinéclub devient un tag matière: m:cinéclub
 	- toutes les prestations au top d'une architecture sont taguées "cycle", par exemple, les cycles CCU, les cycles de conférences, les cycles cinéma (Histoire et cité, ...), les festivals (Commedia, FUIT);
 
-6/ CCU
+## 6/ CCU
 		- les prestations cycle sont taguées s:cycle, m:cinéclub, m:cinéma
 		- les séances CCU sont taguées: s:événement, m:cinéclub, m:cinéma
 		- la page CCU est créée en dur, le sommaire des cycles actuels est cependant généré: s:cycle, m:cinéclub, m:cinéma, date:actuel, tri:chronologique
 		- la page du cycle est générée, le sommaire des séances est généré, la prochaine séance est générée, les ressources informationnelles (image) et documentaires (revue, trailer, cahier des fiches filmiques), les crédits (personnes associées à la prestation en tant que groupe de travail) sont générés à la volée
 
-7/ Archivage
+## 7/ Archivage
 		- portfolio: l'historique des personnes doit permettre d'exprimer toutes les relations entre une personne et les Activités culturelles, soit i) à travers une inscription (cours, billets offerts), soit ii) à travers une relation qualifiée ("jeu" pour un événement, "groupe de travail" pour le ciné-club, etc., selon le point 10 ci-dessous)
 		- permettre l'archivage des productions (événements) à travers le moteur de recherche
 		- permettre l'archivage des ressources associées aux prestations en distinguant a) les ressources internes au CMS et b) les ressources documentaires externes au CMS (accessibles et récupérables en tout temps):
 			a) les ressources informationnelles - quel que soit leur support (images, pdf, trailers, etc) - qui servent à la promotion de la prestation à travers, probablement, l'ID de la prestation;
 			b) les ressources documentaires - quels que soient leur support et leur nature (images des spectacles, enregistrements audiovisuels, revues du CCU, fiches filmiques, critiques, revues de presse, etc) - qui servent à la documentation de la prestation, intégrées dans le système "développé" en parallèle à travers l'ID de la prestation
 
-8/ Transactions financières
+## 8/ Transactions financières
 	- pas de crédits sur les comptes pour les remboursements et les paiements
 	- options ajoutées (partitions) considérées comme de nouvelles prestations associées (regroupement). Il n'y a par conséquent pas la possibilité d'enlever une option
 	- rabais concédés sur les inscriptions:
@@ -165,7 +165,7 @@ Remarque:
 		--> détailler le calcul dans la vue "paiement" en fonction des prestations (exemple: "danse classique" = 72.-; "danse contemporaine" = 72.-)
 		--> inclure la possibilité de gérer des paiements échelonnés à travers la vue "inscription" --> pour une inscription, validation partielle en précisant le montant, soit i) plusieurs lignes par date de paiement, soit ii) une case avec montant reçu et mise à jour manuelle --> c'est ce montant qui doit être calculé dans le montant des paiements reçus
 
-9/ Répertoire des oeuvres
+## 9/ Répertoire des oeuvres
 	- pour l'indexation des films, des oeuvres musicales, des pièces produits par les AC
 	- oeuvre: titre 1, titre 2, année de production, détails
 	- auteur: prénom, nom, date de naissance
@@ -177,7 +177,7 @@ Remarque:
 		- la filmographie CCU de tel réalisateur
 		- ...
 	
-10 / Divers:
+## 10 / Divers:
 - labeliser des unités de calendrier (ex: cours d'essai, nouvelle date, date modifiée, ...)
 - assurer la synchronisation des calendriers
 - communiquer avec les participant-e-s (inscrits, non-inscrits, ayant participé ou non à telle séance) à une prestation
