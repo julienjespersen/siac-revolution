@@ -204,3 +204,4 @@ Remarque:
 	- son, musique, lumières
 - service de réservation/prêt (le matériel MU, les postes informatiques au Studio IX) en ligne
 - régler le cas du paiement à double (Maradan Laetitia, ID 13799, paiement validé le 02.10.2017 et le 30.12.2017)
+- identification des personnes: SIUS; infos sur les filières, info admin qui s'inscrivent à une prestation
